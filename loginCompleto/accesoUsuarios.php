@@ -4,7 +4,7 @@
     $pass = $_POST['password'];
 
     if(isset($user)){
-        //Conexion con la base de datos
+        //Conexión a la base de datos
         define('SERVERNAME', 'localhost');
         define('USERNAME', 'root');
         define('PASSWORD', '');
