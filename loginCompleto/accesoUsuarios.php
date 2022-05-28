@@ -5,6 +5,7 @@
 
     if(isset($user)){
         //Conexión a la base de datos
+        //Variables definidas para la conexión
         define('SERVERNAME', 'localhost');
         define('USERNAME', 'root');
         define('PASSWORD', '');
